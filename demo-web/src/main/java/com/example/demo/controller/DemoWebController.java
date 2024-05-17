@@ -3,7 +3,6 @@ package com.example.demo.controller;
 
 import com.example.demo.controller.dto.ItemDto;
 import com.example.demo.service.AppService;
-import com.example.demo.service.MyService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,7 +10,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
@@ -22,7 +20,7 @@ import java.util.List;
 @ComponentScan
 @Controller
 @RequestMapping("")
-public class DemoController {
+public class DemoWebController {
     private final AppService appService;
 
     @GetMapping(value = {"i18n"})
