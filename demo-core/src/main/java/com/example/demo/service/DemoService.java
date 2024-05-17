@@ -16,4 +16,8 @@ public class DemoService {
     public List<EmployeeTbl> getEmployeeName() {
         return this.employeeService.findAll();
     }
+
+    public EmployeeTbl saveEmployee(EmployeeTbl employee) {
+        return this.employeeService.save(employee);
+    }
 }
