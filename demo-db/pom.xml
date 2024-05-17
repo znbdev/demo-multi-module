@@ -13,6 +13,10 @@
     <name>demo-db</name>
     <description>demo db module</description>
 
+    <properties>
+        <mysql.version>8.0.33</mysql.version>
+    </properties>
+
     <dependencies>
         <!-- Spring Data JPA -->
         <dependency>
@@ -24,6 +28,12 @@
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <!-- MySQL Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
         </dependency>
     </dependencies>
 </project>
