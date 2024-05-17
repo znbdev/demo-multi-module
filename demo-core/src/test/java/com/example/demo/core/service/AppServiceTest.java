@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package com.example.demo.core.service;
 
-import com.example.demo.properties.AppProperties;
+import com.example.demo.core.properties.AppProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

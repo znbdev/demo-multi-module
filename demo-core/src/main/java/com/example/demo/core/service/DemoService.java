@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.core.service;
 
 import com.example.demo.db.entity.EmployeeTbl;
 import com.example.demo.db.service.EmployeeService;

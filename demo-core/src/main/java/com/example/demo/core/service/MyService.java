@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package com.example.demo.core.service;
 
-import com.example.demo.properties.ServiceProperties;
+import com.example.demo.core.properties.ServiceProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;

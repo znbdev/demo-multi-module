@@ -1,10 +1,10 @@
-package com.example.demo.controller;
+package com.example.demo.api.controller;
 
 import com.example.demo.db.entity.EmployeeTbl;
-import com.example.demo.service.AppService;
-import com.example.demo.service.DemoService;
-import com.example.demo.service.MyService;
-import com.example.demo.utils.DemoUtil;
+import com.example.demo.core.service.AppService;
+import com.example.demo.core.service.DemoService;
+import com.example.demo.core.service.MyService;
+import com.example.demo.core.utils.DemoUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.demo.web;
 
-import com.example.demo.service.MyService;
+import com.example.demo.core.service.MyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 @SpringBootApplication(scanBasePackages = "com.example.demo")
-public class DemoApiApplication {
+public class DemoWebApplication {
 
 	private final MyService myService;
 
@@ -20,6 +20,6 @@ public class DemoApiApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApiApplication.class, args);
+		SpringApplication.run(DemoWebApplication.class, args);
 	}
 }

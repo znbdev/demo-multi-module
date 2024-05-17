@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.demo.web.controller;
 
 
-import com.example.demo.controller.dto.ItemDto;
-import com.example.demo.service.AppService;
+import com.example.demo.web.controller.dto.ItemDto;
+import com.example.demo.core.service.AppService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.ComponentScan;
